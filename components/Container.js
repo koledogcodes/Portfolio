@@ -1,6 +1,8 @@
 
 export default function Container({ children }) {
     return (
-        <main className="w-screen px-3">{children}</main>
+        <div className="flex justify-center">
+            <div className="w-2/3 h-full bg-red-200">{children}</div>
+        </div>
     )
 }
