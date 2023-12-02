@@ -12,7 +12,7 @@ export default function Home() {
 
           <section className="flex flex-col basis-1/2">
             <h1 className="basis-1/2 text-6xl">Software Engineer</h1>
-            <p className=" basis-1/2 text-lg">Hi, I'm Kolade Olorunnife. A passionate Software Engineer with experience in web and mobile development based in Melbourne, Australia. 📍</p>
+            <p className=" basis-1/2 text-lg">Hi, I&apos;m Kolade Olorunnife. A passionate Software Engineer with experience in web and mobile development based in Melbourne, Australia. 📍</p>
           </section>
 
           <section className="basis-1/2">
