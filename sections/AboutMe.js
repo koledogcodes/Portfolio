@@ -16,10 +16,10 @@ export default function AboutMe() {
                         <p className="text-2xl font-bold pb-3">A dedicated Software Engineer based in Melbourne, Australia 📍</p>
                         <p className="text-slate-700 text-lg">
                             Current DevOps Engineer with 8 years programming experience and completed Bachelor of Software Engineering
-                            (Honors) with published article. Exceptional work ethic and an interest to learn and adapt to a changing
-                            environment. My skills include frontend/backend web application development using react and NodeJS or
-                            asp.net, mobile application development using android studio and game add on development with java. I
-                            am seeking to expand to the field of Software Engineering more development focused role and grow within
+                            (Honors) with published article. <br />
+                            My skills include frontend/backend web application development using react and NodeJS or
+                            asp.net, mobile application development using android studio and game add on development with java. <br />
+                            I am seeking to expand to the field of Software Engineering more development focused role and grow within
                             the industry.
                         </p>
                     </section>
