@@ -33,8 +33,8 @@ export default function Home() {
           {/* Self Portait */}
           <section className="basis-1/2 h-[320px]">
             <div className="flex flex-row-reverse relative h-full">
-              <div className="flex p-[4px] profile-img bg-black">
-                <img className="mx-auto rounded-3xl profile-img" src={"/selfie.jpg"} alt={"/selfie.jpeg"} />
+              <div className="flex p-[4px] mx-auto profile-img bg-black">
+                <img className="rounded-3xl profile-img" src={"/selfie.jpg"} alt={"/selfie.jpeg"} />
               </div>
             </div>
           </section>
