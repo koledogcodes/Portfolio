@@ -1,5 +1,5 @@
-import { InlineIcon } from "@iconify/react";
 import Container from "../components/Container";
+import SocialBlade from "./SocialBlade";
 
 export default function Intro() {
     return (
@@ -12,17 +12,7 @@ export default function Intro() {
 
                     {/* Socials */}
                     <section className="flex justify-center md:justify-start">
-                        <a href="https://www.linkedin.com/in/stephen-olorunnife-84b449177/" target="_blank">
-                            <InlineIcon className="text-4xl text-blue-700 icon" icon="mdi:linkedin" />
-                        </a>
-
-                        <a href="https://gitlab.com/KoolaidDaBeast" className="px-2 my-auto" target="_blank">
-                            <InlineIcon className="text-4xl icon" icon="mdi:github" />
-                        </a>
-
-                        <a href="https://twitter.com/KoolaidDaBeast" className="my-auto" target="_blank">
-                            <InlineIcon className="text-4xl text-blue-400 icon" icon="mdi:twitter" />
-                        </a>
+                        <SocialBlade />
                     </section>
                 </section>
 
