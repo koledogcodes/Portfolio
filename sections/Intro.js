@@ -4,7 +4,7 @@ import Container from "../components/Container";
 export default function Intro() {
     return (
         <Container id="intro">
-            <div id="home" className="flex flex-col-reverse md:flex-row">
+            <div id="home" className="flex flex-col-reverse md:flex-row mt-[40px] xl:mt-0">
 
                 <section className="flex flex-col basis-1/2 my-auto">
                     <h1 className="basis-1/2 text-6xl py-5 text-center md:text-start">Software Engineer</h1>
