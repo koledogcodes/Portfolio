@@ -15,6 +15,11 @@ export default function ContactUs() {
                 <span className="py-2 md:py-0" />
 
                 <LabeledIcon icon="material-symbols:mail-outline" title="Mail" subTitle={<a className="break-all" href="mailto:electrotech14@hotmail.com">electrotech14@hotmail.com</a>} padded />
+
+                <span className="py-2 md:py-0" />
+
+                <LabeledIcon icon="mdi:phone" title="Call" subTitle={<a className="break-all" href="tel:+61457289885">+61 457 289 885</a>} padded />
+
             </section>
         </Container>
     )
