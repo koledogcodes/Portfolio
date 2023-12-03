@@ -5,7 +5,7 @@ export default function NavBar() {
     const [expanded, setExpanded] = useState(false);
 
     return (
-        <nav className="flex flex-col w-screen bg-white mb-14 sm:flex-row">
+        <nav className="flex flex-col w-full bg-white mb-14 sm:flex-row fixed z-10">
             <NavBarItem heading>
                 <span className="flex">
                     <div className="flex-none">Kolade.dev</div>
@@ -17,10 +17,10 @@ export default function NavBar() {
 
 
             <div data-expand={expanded} className="flex flex-col items-center w-full justify-end sm:flex-row max-md:data-[expand=false]:hidden">
-                <NavBarItem>Home</NavBarItem>
-                <NavBarItem>About</NavBarItem>
-                <NavBarItem>Projects</NavBarItem>
-                <NavBarItem>Contact</NavBarItem>
+                <NavBarItem href="#intro">Home</NavBarItem>
+                <NavBarItem href="#about">About</NavBarItem>
+                <NavBarItem href="#projects">Projects</NavBarItem>
+                <NavBarItem href="#contact">Contact</NavBarItem>
             </div>
         </nav>
     )
