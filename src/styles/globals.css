@@ -1,3 +1,104 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    12% {
+        transform: translateY(-5%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    25% {
+        transform: translateY(-10%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    37% {
+        transform: translateY(-15%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    50% {
+        transform: translateY(-20%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    65% {
+        transform: translateY(-15%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    75% {
+        transform: translateY(-10%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    87% {
+        transform: translateY(-5%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    100% {
+        transform: translateY(0%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+@keyframes jiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        transform: rotate(15deg);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+@keyframes flux {
+    0% {
+        clip-path: polygon(50% 0%, 94% 9%, 100% 35%, 100% 70%, 93% 94%, 50% 100%, 5% 94%, 3% 80%, 3% 38%, 3% 3%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    25% {
+        clip-path: polygon(50% 0%, 94% 9%, 95% 36%, 97% 69%, 98% 98%, 52% 98%, 5% 94%, 3% 71%, 6% 38%, 3% 3%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    50% {
+        clip-path: polygon(52% 4%, 95% 4%, 93% 36%, 94% 69%, 95% 96%, 52% 98%, 3% 95%, 5% 70%, 4% 38%, 3% 2%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    75% {
+        clip-path: polygon(50% 0%, 94% 9%, 95% 36%, 97% 69%, 98% 98%, 52% 98%, 5% 94%, 3% 71%, 6% 38%, 3% 3%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    100% {
+        clip-path: polygon(50% 0%, 94% 9%, 100% 35%, 100% 70%, 93% 94%, 50% 100%, 5% 94%, 3% 80%, 3% 38%, 3% 3%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+.profile-img {
+    width: auto;
+    animation: flux 8s infinite;
+}
+
+.icon:hover {
+    animation: bounce 1s infinite;
+}
+
+@media only screen and (min-width: 768px) {
+    .profile-img {
+        max-width: 320px;
+    }
+}
