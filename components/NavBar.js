@@ -5,7 +5,7 @@ export default function NavBar() {
     const [expanded, setExpanded] = useState(false);
 
     return (
-        <nav className="flex flex-col w-full bg-white mb-14 sm:flex-row fixed z-10">
+        <nav className="flex flex-col w-full bg-white mb-14 sm:flex-row fixed z-10 border-b-[1px] border-b-slate-100">
             <NavBarItem heading>
                 <span className="flex">
                     <div className="flex-none">Kolade.dev</div>

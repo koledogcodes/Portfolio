@@ -1,5 +1,5 @@
 
-export default function Container({ children, light, id }) {
+export default function Container({ children, light, dark, id }) {
     if (light != undefined) {
         return (
             <div id={id} className="flex justify-center bg-white py-[5%]">
