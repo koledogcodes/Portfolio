@@ -15,12 +15,10 @@ export default function AboutMe() {
                         <p className="text-red-500 text-lg font-bold pb-3">ABOUT ME</p>
                         <p className="text-2xl font-bold pb-3">A dedicated Software Engineer based in Melbourne, Australia 📍</p>
                         <p className="text-slate-700 text-lg">
-                            Current DevOps Engineer with 8 years programming experience and completed Bachelor of Software Engineering
-                            (Honors) with published article. <br />
-                            My skills include frontend/backend web application development using react and NodeJS or
-                            asp.net, mobile application development using android studio and game add on development with java. <br />
-                            I am seeking to expand to the field of Software Engineering more development focused role and grow within
-                            the industry.
+                            Junior Software Engineer with 8 years programming experience and completed Bachelor of Software Engineering
+                            (Honours) with published article. <br />
+                            My skills include frontend/backend web application development using react with NodeJS backend and mobile application development. <br />
+                            I am seeking to improve my skills in the field of Software Engineering and grow within the industry.
                         </p>
                     </section>
                 </div>
