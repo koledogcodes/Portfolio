@@ -7,7 +7,7 @@ export default function AboutMe() {
         <Container id="about" light>
             <section className="flex flex-col xl:flex-row">
                 <div className="basis-1/2 px-[5%] pb-3 xl:pb-0 my-auto">
-                    <img src={URL} alt={URL} className="rounded-3xl" />
+                    <img src={"./about.JPG"} alt={"./about.JPG"} className="rounded-3xl" />
                 </div>
 
                 <div className="basis-1/2">

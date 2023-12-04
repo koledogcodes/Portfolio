@@ -6,7 +6,7 @@ export default function ProjectPill({ imageSrc, title, date, desc, languages = [
             <div className={reverse ? "flex flex-col xl:flex-row-reverse" : "flex flex-col xl:flex-row"}>
 
                 {/* Project Image */}
-                <div className="basis-1/2 my-auto mx-6 my-6">
+                <div className="basis-1/2 xl:my-auto mx-6 my-6">
                     <img className="rounded-[10px] shadow" src={imageSrc} />
                 </div>
 
