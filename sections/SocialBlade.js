@@ -7,7 +7,7 @@ export default function SocialBlade() {
                 <InlineIcon className="text-4xl text-blue-700 icon" icon="mdi:linkedin" />
             </a>
 
-            <a href="https://gitlab.com/KoolaidDaBeast" className="px-2 my-auto" target="_blank">
+            <a href="https://gitlab.com/users/KoolaidDaBeast/projects" className="px-2 my-auto" target="_blank">
                 <InlineIcon className="text-4xl icon bg-white rounded-full" icon="mdi:github" />
             </a>
 
