@@ -18,7 +18,8 @@ export default function AboutMe() {
                             Junior Software Engineer with 8 years programming experience and completed Bachelor of Software Engineering
                             (Honours) with published article. <br />
                             My skills include frontend/backend web application development using react with NodeJS backend and mobile application development. <br />
-                            I am seeking to improve my skills in the field of Software Engineering and grow within the industry.
+                            I am seeking to improve my skills in the field of Software Engineering and grow within the industry. <br />
+                            My hobbies include programming, watching anime, gym, hanging out with friends and playing pc/console video games during my free time. <br />
                         </p>
                     </section>
                 </div>
