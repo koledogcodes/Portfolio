@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import ProjectPill from "../components/ProjectPill";
+const Projs = require('../projects.json');
 
 export default function Projects() {
     return (
@@ -10,15 +11,19 @@ export default function Projects() {
             </section>
 
             {/* Projects */}
-            <ProjectPill
-                imageSrc="./JavascriptMpiCloud.PNG"
-                languages={["HTML", "CSS", "JavaScript", "NodeJS", "Socket.IO"]}
-                title="Javascript MPI Cloud"
-                date="(March, 2020)"
-                desc="A web application to communicate over the cloud with any number of connected devices that will work together to perform a task. The mpi functions have a similar method signature to the C++ MPI implementation to ensure consistency when using my web application."
-                codeUrl="https://gitlab.com/KoolaidDaBeast/javascript-mpi-cloud"
-                demoUrl="https://javascript-mpi-cloud-web.vercel.app/"
-            />
+            {Object.keys(Projs).map((title, idx) => (
+                <ProjectPill
+                    key={idx}
+                    imageSrc={Projs[title].imageSrc}
+                    languages={Projs[title].languages}
+                    title={title}
+                    date={Projs[title].date}
+                    desc={Projs[title].description}
+                    codeUrl={Projs[title].codeUrl}
+                    demoUrl={Projs[title].demoUrl}
+                    reverse={idx % 2}
+                />
+            ))}
         </Container>
     )
 }

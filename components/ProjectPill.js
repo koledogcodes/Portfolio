@@ -1,12 +1,12 @@
 import { InlineIcon } from "@iconify/react";
 
-export default function ProjectPill({ imageSrc, title, date, desc, languages = [], codeUrl, demoUrl }) {
+export default function ProjectPill({ imageSrc, title, date, desc, languages = [], codeUrl, demoUrl, reverse }) {
     return (
         <section className="mt-4 shadow-xl rounded-xl bg-[#fff]">
-            <div className="flex flex-col xl:flex-row">
+            <div className={reverse ? "flex flex-col xl:flex-row-reverse" : "flex flex-col xl:flex-row"}>
 
                 {/* Project Image */}
-                <div className="basis-1/2 my-auto mx-6 mt-6">
+                <div className="basis-1/2 my-auto mx-6 my-6">
                     <img className="rounded-[10px] shadow" src={imageSrc} />
                 </div>
 
