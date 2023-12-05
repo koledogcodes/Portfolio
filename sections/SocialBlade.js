@@ -3,7 +3,7 @@ import { InlineIcon } from "@iconify/react";
 export default function SocialBlade() {
     return (
         <>
-            <a href="https://www.linkedin.com/in/stephen-olorunnife-84b449177/" className="my-auto" target="_blank">
+            <a href="https://www.linkedin.com/in/kolade-o-software-eng/" className="my-auto" target="_blank">
                 <InlineIcon className="text-4xl text-blue-700 icon" icon="mdi:linkedin" />
             </a>
 
