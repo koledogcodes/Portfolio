@@ -11,7 +11,7 @@
     "date": "InProgress",
     "description": "A web application to visualize how different sorting algorithms sort things thorugh each iteration.",
     "languages": ["HTML", "CSS", "JavaScript", "React"],
-    "imageSrc": "./selfie.jpg",
+    "imageSrc": "./JavascriptMpiCloud.PNG",
     "codeUrl": "https://gitlab.com/KoolaidDaBeast/javascript-sort-visualizer",
     "demoUrl": "https://javascript-sort-visualizer.vercel.app/"
   },
