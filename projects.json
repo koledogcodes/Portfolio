@@ -8,10 +8,10 @@
     "demoUrl": "https://restfulapitester.pro/"
   },
   "Javascript Sort Visualizer": {
-    "date": "InProgress",
-    "description": "A web application to visualize how different sorting algorithms sort things thorugh each iteration.",
+    "date": "(December, 2023)",
+    "description": "A web application to visualize how different sorting algorithms sort items thorugh each iteration. The application has adjustable speeds and basic options to help visualize sorting algorithms.",
     "languages": ["HTML", "CSS", "JavaScript", "React"],
-    "imageSrc": "./JavascriptMpiCloud.PNG",
+    "imageSrc": "./JavascriptSortVisualizer.PNG",
     "codeUrl": "https://gitlab.com/KoolaidDaBeast/javascript-sort-visualizer",
     "demoUrl": "https://javascript-sort-visualizer.vercel.app/"
   },
