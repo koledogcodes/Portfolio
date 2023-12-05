@@ -7,6 +7,14 @@
     "codeUrl": "https://gitlab.com/KoolaidDaBeast/restful-api-tester",
     "demoUrl": "https://restfulapitester.pro/"
   },
+  "Javascript Sort Visualizer": {
+    "date": "InProgress",
+    "description": "A web application to visualize how different sorting algorithms sort things thorugh each iteration.",
+    "languages": ["HTML", "CSS", "JavaScript", "React"],
+    "imageSrc": "./selfie.jpg",
+    "codeUrl": "https://gitlab.com/KoolaidDaBeast/javascript-sort-visualizer",
+    "demoUrl": "https://javascript-sort-visualizer.vercel.app/"
+  },
   "Javascript MPi Cloud": {
     "date": "(October, 2020)",
     "description": "A web application to communicate over the cloud with any number of connected devices that will work together to perform a task. The mpi functions have a similar method signature to the C++ MPI implementation to ensure consistency when using my web application.",
