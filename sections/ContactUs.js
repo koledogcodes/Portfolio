@@ -14,7 +14,7 @@ export default function ContactUs() {
 
                 <span className="py-2 md:py-0" />
 
-                <LabeledIcon icon="mdi:paper" title="Resume" subTitle={<a className="break-all" target="_blank" href="./resume_2023.pdf">View my Resume</a>} padded />
+                <LabeledIcon icon="mdi:paper" title="Resume" subTitle={<a className="break-all" target="_blank" href="./RESUME.pdf">View my Resume</a>} padded />
 
                 <span className="py-2 md:py-0" />
 
